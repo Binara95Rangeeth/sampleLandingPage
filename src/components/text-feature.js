@@ -19,7 +19,9 @@ export default function TextFeature({
         </Heading>
       </Box>
       {description && (
-        <Text as="p" className="description" sx={styles.description}></Text>
+        <Text as="p" className="description" sx={styles.description}>
+          {description}
+        </Text>
       )}
 
       {btnName && (
